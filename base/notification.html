@@ -1,0 +1,348 @@
+<!--
+  Template Name: Base Template
+  Template URI: http://www.ecm-design.com
+  Description: Base email template for MyMail
+  Author: ecm design
+  Author URI: http://www.ecm-design.com
+  Version: 1.0
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+  <meta name="x-apple-disable-message-reformatting"> <!-- Disable auto-scale in iOS 10 Mail entirely -->
+  <title>{subject}</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+</head>
+<body>
+  <!-- Style -->
+  <style type="text/css">
+    /* Reset */
+    html, body {
+      width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    body {
+      height: 100% !important;
+    }
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+    table {
+      border-spacing: 0 !important;
+      border-collapse: collapse !important;
+      table-layout: fixed !important;
+      margin: 0 auto;
+    }
+    table table table {
+      table-layout: auto;
+    }
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+    .mobile-link--footer a,
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: underline !important;
+    }
+
+    /* Outlook */
+    #outlook a {
+      padding: 0;
+    }
+    .ExternalClass {
+      width: 100%;
+    }
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    /* Preheader */
+    div.preheader {
+      line-height: 0px;
+      font-size: 0px;
+      height: 0px;
+      display: none !important;
+      display: none;
+      visibility: hidden;
+    }
+
+    /* Base */
+    html {
+      box-sizing: border-box;
+      font-size: 13px;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    /* Type scale */
+    body {
+      background-color: #EEEEEE;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1.45;
+      color: #333333;
+    }
+    p {
+      margin-bottom: 1.3em;
+    }
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4 {
+      margin: 0 0 0.5em;
+      font-weight: inherit;
+      line-height: 1.2;
+    }
+    h1, .h1 {
+      font-size: 26px;
+      font-size: 1.602rem;
+    }
+    h2, .h2 {
+      font-size: 22px;
+      font-size: 1.424rem;
+    }
+    h3, .h3 {
+      font-size: 20px;
+      font-size: 1.266rem;
+    }
+    h4, .h4 {
+      font-size: 18px;
+      font-size: 1.125rem;
+    }
+    small, .small {
+      font-size: 0.899em;
+    }
+
+    /* Elements */
+    a {
+      color: #4687DC;
+      text-decoration: none;
+    }
+    a:focus {
+      outline: thin dotted #DDDDDD;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border: 0;
+      outline: none;
+      text-decoration: none;
+    }
+    ul, ol {
+      padding-left: 1.25em;
+      margin-bottom: 1.3em;
+      overflow: hidden;
+    }
+
+    /* Images */
+    .alignleft {
+      float: left;
+      margin-right: 1.5em;
+    }
+    .alignright {
+      float: right;
+      margin-left: 1.5em;
+    }
+
+    /* Table styles */
+    table.wrapper,
+    table.container {
+      width: 100% !important;
+    }
+    table, table td {
+      border-collapse: collapse;
+    }
+    td, tr {
+      padding: 0;
+    }
+    .bodytbl {
+      display: block;
+      background-color: white;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .table-separator table {
+      display: block;
+      width: 100%;
+      height: 0;
+      border-bottom: 1px dotted #DDDDDD;
+    }
+    .module img {
+      margin-bottom: 1.3em;
+    }
+
+    /* Floats */
+    .left-align { float: left; }
+    .right-align { float: right; }
+
+    /* Display */
+    .block { display: block; }
+    .inline-block { display: inline-block; }
+
+    /* Buttons */
+    .button {
+      font-size: 0.875em;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+      line-height: 1.0;
+      padding: 0.75em 1.0em;
+      margin: 0;
+      height: auto;
+      border: none;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      color: white !important;
+      background-color: #1B7164;
+      border: 1px solid transparent;
+      border-radius: 2px;
+    }
+    .button:active {
+      box-shadow:
+        inset 0 0 0 20rem rgba(0, 0, 0, 0.125),
+        inset 0 3px 4px 0 rgba(0, 0, 0, 0.25),
+        0 0 1px rgba(0, 0, 0, 0.125);
+    }
+
+    /* Padding */
+    .p1 { padding: 10px; }
+    .p2 { padding: 20px; }
+    .py1 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .py2 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .px1 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .px2 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .pt0 { padding-top: 0; }
+    .pt1 { padding-top: 10px; }
+    .pt2 { padding-top: 20px; }
+    .pb0 { padding-bottom: 0; }
+    .pb1 { padding-bottom: 10px; }
+    .pb2 { padding-bottom: 20px; }
+
+    /* Margins */
+    .mt0 { margin-top: 0 !important; }
+    .mt1 { margin-top: 10px; }
+    .mt2 { margin-top: 20px; }
+    .mb0 { margin-bottom: 0 !important; }
+    .mb1 { margin-bottom: 10px; }
+    .mb2 { margin-bottom: 20px; }
+
+    /* Grid */
+    .col-1-2 {
+      display: block;
+      width: 100%;
+    }
+
+    /* Media queries */
+    @media only screen and (min-width: 481px) {
+      html {
+        font-size: 14px;
+      }
+      .col-1-2 {
+        width: 50%;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      .mobile-hide {
+        display: none !important;
+      }
+    }
+    @media only screen and (min-width: 601px) {
+      .bodytbl {
+        width: 600px !important;
+      }
+      html {
+        font-size: 15px;
+      }
+    }
+  </style>
+
+  <!-- Preheader -->
+  <div class="preheader">{preheader}</div>
+
+  <table class="body bodytbl" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="100%">
+
+        <!-- Header -->
+        <table class="header table-header wrapper" width="600" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>
+              <table class="wrapper" width="600" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Main -->
+        <table class="main table-main wrapper" width="600" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="p2">
+              <table class="wrapper" width="600" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>
+                    <!-- Headline -->
+                    <h1><single label="Custom headline">{headline}</single></h1>
+
+                    <!-- Text -->
+                    <multi label="Custom text">{content}</multi>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Footer -->
+        <table class="footer table-footer wrapper" width="600" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>
+              <table class="wrapper" width="600" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
