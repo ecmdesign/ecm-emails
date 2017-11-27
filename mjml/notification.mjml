@@ -1,0 +1,45 @@
+<mjml>
+  <!-- Head -->
+  <mj-head>
+    <!-- Preview -->
+    <mj-title>Title goes here</mj-title>
+    <!-- Preview -->
+    <mj-preview>Email preview text goes here</mj-preview>
+    <!-- Font -->
+    <mj-font name="Source Sans Pro" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700,700i" />
+    <!-- Styles -->
+    <mj-style>
+    </mj-style>
+  </mj-head>
+  <!-- Body -->
+  <mj-body>
+    <mj-container width="600px" background-color="#DDDDDD">
+      <mj-wrapper background-color="#FFFFFF">
+        <!-- Logo -->
+        <mj-section>
+          <mj-column width="100%">
+            <mj-image src="img/masthead.png" />
+          </mj-column>
+        </mj-section>
+        <!-- Navbar -->
+        <mj-navbar padding="10px 15px" background-color="#00457C">
+          <mj-column width="100%">
+            <mj-inline-links base-url="http://cgi.ecm-design.com" hamburger="hamburger" ico-padding="0" ico-color="#ffffff" ico-font-size="20px">
+              <mj-link href="/about-cgi" color="#ffffff" padding="5px">About</mj-link>
+              <mj-link href="/corporate-benefits" color="#ffffff" padding="5px 10px">Corporate Benefits</mj-link>
+              <mj-link href="/wellness-solutions" color="#ffffff" padding="5px 10px">Wellness</mj-link>
+              <mj-link href="/retirement-services" color="#ffffff" padding="5px 10px">Retirement</mj-link>
+              <mj-link href="/business-insurance" color="#ffffff" padding="5px 10px">Business</mj-link>
+              <mj-link href="/personal-insurance" color="#ffffff" padding="5px 10px">Personal</mj-link>
+            </mj-inline-links>
+          </mj-column>
+        </mj-navbar>
+        <!-- Footer -->
+        <mj-section>
+          <mj-column width="100%">
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
+    </mj-container>
+  </mj-body>
+</mjml>
