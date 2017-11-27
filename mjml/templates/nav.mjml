@@ -1,0 +1,12 @@
+<mj-navbar padding="10px 15px" background-color="#00457C">
+  <mj-column width="100%">
+    <mj-inline-links base-url="http://cgi.ecm-design.com" hamburger="hamburger" ico-padding="0" ico-color="#ffffff" ico-font-size="20px">
+      <mj-link href="/about-cgi" color="#ffffff" padding="5px">About</mj-link>
+      <mj-link href="/corporate-benefits" color="#ffffff" padding="5px 10px">Corporate Benefits</mj-link>
+      <mj-link href="/wellness-solutions" color="#ffffff" padding="5px 10px">Wellness</mj-link>
+      <mj-link href="/retirement-services" color="#ffffff" padding="5px 10px">Retirement</mj-link>
+      <mj-link href="/business-insurance" color="#ffffff" padding="5px 10px">Business</mj-link>
+      <mj-link href="/personal-insurance" color="#ffffff" padding="5px 10px">Personal</mj-link>
+    </mj-inline-links>
+  </mj-column>
+</mj-navbar>

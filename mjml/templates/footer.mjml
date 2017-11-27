@@ -1,0 +1,7 @@
+<mj-section background-color="#CCCCCC">
+  <mj-column width="100%">
+    <!-- Text -->
+    <mj-text align="center" padding="5px">&copy;2017 CGI CGI Employee Benefits Group and CGI Retirement Services. All rights reserved.</mj-text>
+    <mj-text align="center" padding="5px">Securities offered thru L.M. Kohn &amp; Company, Member FINRA / SIPC / MSRB</mj-text>
+  </mj-column>
+</mj-section>

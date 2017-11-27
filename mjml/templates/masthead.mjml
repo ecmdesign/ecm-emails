@@ -1,0 +1,6 @@
+<mj-section>
+  <mj-column>
+    <!-- Image -->
+    <mj-image src="https://image.ibb.co/nN46sb/cgi_email_masthead.png" />
+  </mj-column>
+</mj-section>

@@ -1,4 +1,7 @@
+# Junk files
 .DS_Store
 Desktop.ini
 Thumbs.db
+
+# NPM
 node_modules
