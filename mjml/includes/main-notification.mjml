@@ -1,3 +1,6 @@
 /**
  * main-notification.mjml
  */
+
+<!-- Intro -->
+<mj-include path="modules/intro-notification" />
