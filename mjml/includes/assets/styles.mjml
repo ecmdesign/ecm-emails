@@ -10,7 +10,7 @@
     color: #333;
   }
   a {
-    color: #00ADEF;
+    color: #00457C;
     text-decoration: none;
   }
   p, .p { margin: 0 0 1.3em; }
@@ -64,8 +64,9 @@
   }
 
   /* Footer */
+  .fineprint a,
   .fineprint span {
-    color: #AAAAAA;
+    color: #BBBBBB;
   }
   .fineprint .separator {
     margin: 0 0.25em;
