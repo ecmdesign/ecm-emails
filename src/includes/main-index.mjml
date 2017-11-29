@@ -6,7 +6,7 @@
 <mj-include path="modules/full-size-image" />
 
 <!-- Intro -->
-<mj-include path="modules/intro" />
+<mj-include path="modules/intro-index" />
 
 <!-- Divider Module* -->
 <mj-include path="modules/module-divider" />
