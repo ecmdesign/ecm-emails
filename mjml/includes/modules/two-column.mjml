@@ -16,7 +16,7 @@
       </mj-text>
 
       <!-- Button -->
-      <mj-button padding="0" inner-padding="0" href="#" font-family="Source Sans Pro, Arial, sans-serif" font-size="14px" background-color="#00ADEF" color="white" align="left" css-class="button">Read more</mj-button>
+      <mj-button padding="0" inner-padding="0" href="#" font-family="Source Sans Pro, Arial, sans-serif" font-size="14px" background-color="transparent" color="white" align="left" css-class="button">Read more</mj-button>
     </mj-column>
 
     <mj-column>
@@ -31,7 +31,7 @@
       </mj-text>
 
       <!-- Button -->
-      <mj-button padding="0" inner-padding="0" href="#" font-family="Source Sans Pro, Arial, sans-serif" font-size="14px" background-color="#00ADEF" color="white" align="left" css-class="button">Read more</mj-button>
+      <mj-button padding="0" inner-padding="0" href="#" font-family="Source Sans Pro, Arial, sans-serif" font-size="14px" background-color="transparent" color="white" align="left" css-class="button">Read more</mj-button>
     </mj-column>
   </mj-group>
 </mj-section>

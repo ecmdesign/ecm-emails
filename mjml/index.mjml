@@ -42,6 +42,9 @@
         <!-- Footer -->
         <mj-include path="includes/footer" />
 
+        <!-- Fineprint -->
+        <mj-include path="includes/fineprint" />
+
       </mj-wrapper>
     </mj-container>
   <mj-body>

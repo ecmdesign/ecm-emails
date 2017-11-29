@@ -1,0 +1,11 @@
+/**
+ * footer.mjml
+ */
+
+<mj-section padding="5px 20px 7px" background-color="#DDDDDD">
+  <mj-column width="100%">
+    <mj-text align="center" padding="5px 0 0" font-family="Source Sans Pro, Arial, sans-serif" font-size="13px" css-class="fineprint">
+      <span><a href="{unsublink}">Unsubscribe</a> <span class="separator">|</span> <a href="{webversionlink}">View in browser</a></span>
+    </mj-text>
+  </mj-column>
+</mj-section>
