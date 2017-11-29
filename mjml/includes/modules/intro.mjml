@@ -10,7 +10,7 @@
     </mj-text>
 
     <!-- Intro -->
-    <mj-text padding="0" font-family="Source Sans Pro, Arial, sans-serif" font-size="16px">
+    <mj-text padding="0" font-family="Source Sans Pro, Arial, sans-serif" font-size="16px" css-class="p-last-0">
       <p>Elit quis voluptate ex nostrud dolore in reprehenderit ex. Qui adipisicing pariatur nulla pariatur nisi ullamco dolore ut consectetur consequat voluptate mollit. Exercitation consequat duis cupidatat magna nisi dolor dolore commodo deserunt cupidatat anim proident.</p>
     </mj-text>
   </mj-column>
