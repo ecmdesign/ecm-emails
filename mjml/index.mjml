@@ -33,11 +33,11 @@
         <!-- Masthead -->
         <mj-include path="includes/masthead" />
 
-        <!-- Nav -->
-        <mj-include path="includes/nav" />
+        <!-- Navigation -->
+        <mj-include path="includes/navigation" />
 
         <!-- Main -->
-        <mj-include path="includes/main" />
+        <mj-include path="includes/main-index" />
 
         <!-- Footer -->
         <mj-include path="includes/footer" />
