@@ -37,19 +37,19 @@
       <mj-wrapper background-color="#FFFFFF" padding="20px 0 0">
 
         <!-- Preheader -->
-        <mj-include path="templates/preheader" />
+        <mj-include path="includes/preheader" />
 
         <!-- Masthead -->
-        <mj-include path="templates/masthead" />
+        <mj-include path="includes/masthead" />
 
         <!-- Nav -->
-        <mj-include path="templates/nav" />
+        <mj-include path="includes/nav" />
 
         <!-- Main -->
-        <mj-include path="templates/main" />
+        <mj-include path="includes/main" />
 
         <!-- Footer -->
-        <mj-include path="templates/footer" />
+        <mj-include path="includes/footer" />
 
       </mj-wrapper>
     </mj-container>

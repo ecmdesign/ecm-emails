@@ -1,0 +1,9 @@
+/**
+ * divider.mjml
+ */
+
+<mj-section padding="7px 20px 20px">
+  <mj-column width="100%">
+    <mj-divider padding="0" border-width="1px" border-style="solid" border-color="#DDDDDD" />
+  </mj-column>
+</mj-section>

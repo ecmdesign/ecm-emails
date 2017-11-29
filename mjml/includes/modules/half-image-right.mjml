@@ -1,0 +1,25 @@
+/**
+ * half-image-left.mjml
+ */
+
+<mj-section padding="0 20px 20px">
+  <mj-group>
+    <mj-column width="100%">
+      <!-- Headline -->
+      <mj-text padding="0" font-family="Source Sans Pro, Arial, sans-serif">
+        <h2>Headline goes here</h2>
+      </mj-text>
+
+      <!-- Text -->
+      <mj-text padding="0" font-family="Source Sans Pro, Arial, sans-serif" font-size="16px">
+        <p>Elit quis voluptate ex nostrud dolore in reprehenderit ex. Qui adipisicing pariatur nulla pariatur nisi ullamco dolore ut consectetur consequat voluptate mollit. Exercitation consequat duis cupidatat magna nisi dolor dolore commodo deserunt cupidatat anim proident.</p>
+      </mj-text>
+
+      <!-- Button -->
+      <mj-button padding="0" inner-padding="0" href="#" font-family="Source Sans Pro, Arial, sans-serif" font-size="14px" background-color="#00ADEF" color="white" align="left" css-class="button">Read more</mj-button>
+
+      <!-- Image -->
+      <mj-image padding="0" src="https://dummy.newsletter-plugin.com/264x180.jpg" width="264" height="180" border="0" align="right" alt="" css-class="alignright" />
+    </mj-column>
+  </mj-group>
+</mj-section>

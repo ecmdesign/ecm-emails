@@ -16,40 +16,31 @@
     <mj-preview>{placeholder}</mj-preview>
 
     <!-- Font -->
-    <mj-font name="Source Sans Pro" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700,700i" />
+    <mj-font name="Source Sans Pro" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" />
 
     <!-- Styles -->
-    <mj-style>
-      .preheader {
-        line-height: 0;
-        font-size: 0;
-        height: 0;
-        display: none !important;
-        display: none;
-        visibility: hidden;
-      }
-    </mj-style>
+    <mj-include path="includes/assets/styles" />
   </mj-head>
 
   <!-- Body -->
   <mj-body>
     <mj-container width="600px" background-color="#DDDDDD">
-      <mj-wrapper background-color="#FFFFFF" padding="20px 0 0">
+      <mj-wrapper background-color="#FFFFFF" padding="0">
 
         <!-- Preheader -->
-        <mj-include path="templates/preheader" />
+        <mj-include path="includes/preheader" />
 
         <!-- Masthead -->
-        <mj-include path="templates/masthead" />
+        <mj-include path="includes/masthead" />
 
         <!-- Nav -->
-        <mj-include path="templates/nav" />
+        <mj-include path="includes/nav" />
 
         <!-- Main -->
-        <mj-include path="templates/main" />
+        <mj-include path="includes/main" />
 
         <!-- Footer -->
-        <mj-include path="templates/footer" />
+        <mj-include path="includes/footer" />
 
       </mj-wrapper>
     </mj-container>

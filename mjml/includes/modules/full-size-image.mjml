@@ -1,0 +1,10 @@
+/**
+ * full-size-image.mjml
+ */
+
+<mj-section padding="0 0 20px">
+  <mj-column width="100%">
+    <!-- Image -->
+    <mj-image padding="0" src="https://dummy.newsletter-plugin.com/600x340.jpg" width="600" height="340" border="0" alt="" />
+  </mj-column>
+</mj-section>

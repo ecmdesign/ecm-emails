@@ -1,3 +1,7 @@
+/**
+ * preheader.mjml
+ */
+
 <mj-section padding="0" css-class="preheader">
   <mj-column>
     <mj-text>{preheader}</mj-text>

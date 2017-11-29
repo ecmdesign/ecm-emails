@@ -1,3 +1,7 @@
+/**
+ * nav.mjml
+ */
+
 <mj-navbar padding="10px 15px" background-color="#00457C">
   <mj-column width="100%">
     <mj-inline-links base-url="http://cgi.ecm-design.com" hamburger="hamburger" ico-padding="0" ico-color="#ffffff" ico-font-size="20px">

@@ -1,0 +1,57 @@
+/**
+ * main.mjml
+ */
+
+<!-- Full-size Image -->
+<mj-include path="modules/full-size-image" />
+
+<!-- Intro -->
+<mj-include path="modules/intro" />
+
+<!-- Divider Module* -->
+<mj-include path="modules/module-divider" />
+
+<!-- Half Image Left -->
+<mj-include path="modules/half-image-left" />
+
+<!-- Divider -->
+<mj-include path="modules/divider" />
+
+<!-- Half Image Right -->
+<mj-include path="modules/half-image-right" />
+
+<!-- Divider -->
+<mj-include path="modules/divider" />
+
+<!-- Image Left -->
+<mj-include path="modules/image-left" />
+
+<!-- Divider -->
+<mj-include path="modules/divider" />
+
+<!-- Image Right -->
+<mj-include path="modules/image-right" />
+
+<!-- Divider -->
+<mj-include path="modules/divider" />
+
+<!-- Image Left Third -->
+<mj-include path="modules/image-left-third" />
+
+<!-- Divider -->
+<mj-include path="modules/divider" />
+
+<!-- Image Right Third -->
+<mj-include path="modules/image-right-third" />
+
+<!-- Divider -->
+<mj-include path="modules/divider" />
+
+<!-- One Column -->
+<mj-include path="modules/one-column" />
+
+<!-- Divider -->
+<mj-include path="modules/divider" />
+
+<!-- Two Column -->
+<mj-include path="modules/two-column" />

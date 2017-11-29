@@ -1,4 +1,8 @@
-<mj-section>
+/**
+ * masthead.mjml
+ */
+
+<mj-section padding="10px 20px">
   <mj-column>
     <!-- Image -->
     <mj-image src="https://image.ibb.co/nN46sb/cgi_email_masthead.png" />
